@@ -51,7 +51,7 @@ void mainmenu3()
     mainmenu3_draw.X = 25;
     mainmenu3_draw.Y = 12;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), mainmenu3_draw);
-    printf("Please Select an Action (1,2,3) and Press Enter ->  ");
+    printf("Please Select an Action (1,2) and Press Enter ->  ");
     scanf_s("%d", &mainmenu_selection);
 }
 
