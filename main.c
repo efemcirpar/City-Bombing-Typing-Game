@@ -52,7 +52,7 @@ void mainmenu3()
     mainmenu3_draw.Y = 12;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), mainmenu3_draw);
     printf("Please Select an Action (1,2) and Press Enter ->  ");
-    scanf_s("%d", &mainmenu_selection);
+    scanf("%d", &mainmenu_selection);
 }
 
 void pausemenu1() //drawing pause menu
@@ -90,7 +90,7 @@ void pausemenu4()
     pausemenu4_draw.Y = 14;
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pausemenu4_draw);
     printf("Please Select Your Action (1,2,3) and Press Enter ->  ");
-    scanf_s("%d", &pausemenu_selection);
+    scanf("%d", &pausemenu_selection);
 }
 
 void scoreposition() //drawing scoreboard
